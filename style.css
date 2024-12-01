@@ -131,10 +131,8 @@ a {
     text-decoration-skip-ink: none;
     background-color: blue;
     color: white;
-    
+
 }
-
-
 
 .mais .conteudo h1 {
     display: block;
@@ -151,6 +149,8 @@ a {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     padding-left: 120px;
+    padding-right: 400px;
+    padding-bottom: 20px;
 }
 
 .mais .conteudo p {
@@ -161,10 +161,194 @@ a {
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    padding: ;
+    padding: 0px 300px 70px 120px;
 }
 
 .mais {
     display: flex;
     flex-direction: row;
+}
+
+.mais .conteudo p a {
+    color: blue;
+}
+
+.mais .imagem {
+    padding: 80px 80px 0px 0px;
+}
+
+.sobre {
+    background-color: #D8D8D8;
+    padding-bottom: 200px;
+}
+
+.sobre h1 {
+    color: blue;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding: 70px 0px 25px 0px;
+}
+
+.sobre h2 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.sobre .div-principal {
+    margin: 90px 160px 0px 160px;
+    padding: 0px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 600px;
+    gap: 160px
+}
+
+.sobre .imagem-um {
+    width: 250px;
+    height: 600px;
+    overflow: hidden;
+    flex: 1;
+    box-shadow: 0px 4px 10px 0px #00000099;
+    background: white;
+}
+
+.sobre .imagem-um img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.sobre .imagem-um h1 {
+    padding: 20px 20px 10px 20px;
+    color: black;
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 35.57px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.sobre .imagem-um p {
+    padding: 20px 60px 0px 60px;
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 35.57px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.sobre .imagem-dois {
+    width: 250px;
+    height: 600px;
+    overflow: hidden;
+    flex: 1;
+    box-shadow: 0px 4px 10px 0px #00000099;
+    background: white;
+}
+
+.sobre .imagem-dois img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.sobre .imagem-dois h1 {
+    padding: 20px 20px 10px 20px;
+    color: black;
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 35.57px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.sobre .imagem-dois p {
+    padding: 20px 60px 0px 60px;
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 35.57px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.sobre .imagem-tres {
+    width: 250px;
+    height: 600px;
+    overflow: hidden;
+    flex: 1;
+    box-shadow: 0px 4px 10px 0px #00000099;
+    background: white;
+}
+
+.sobre .imagem-tres img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.sobre .imagem-tres h1 {
+    padding: 20px 20px 10px 20px;
+    color: black;
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 35.57px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.sobre .imagem-tres p {
+    padding: 20px 60px 0px 60px;
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 35.57px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.contato {
+    display: flex;
+}
+
+.contato .localizacao h1 {
+    color: blue;
+    padding: 80px 0px 20px 120px;
+    font-family: Oswald;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 47.42px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.contato .localizacao h2 {
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 35.57px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 20px 0px 10px 120px;
 }
