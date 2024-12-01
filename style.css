@@ -328,9 +328,10 @@ a {
 
 .contato {
     display: flex;
+
 }
 
-.contato .localizacao h1 {
+.contato .div-um h1 {
     color: blue;
     padding: 80px 0px 20px 120px;
     font-family: Oswald;
@@ -342,7 +343,7 @@ a {
     text-decoration-skip-ink: none;
 }
 
-.contato .localizacao h2 {
+.contato .div-um h2 {
     font-family: Oswald;
     font-size: 24px;
     font-weight: 500;
@@ -351,4 +352,169 @@ a {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     padding: 20px 0px 10px 120px;
+}
+
+.contato .localizacao {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px 0px 0px 120px;
+    gap: 90px;
+    width: 800px;
+}
+
+.contato .localizacao .niteroi img {
+    width: 100%;
+    height: auto;
+}
+
+.contato .localizacao .niteroi {
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29.64px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-transform: uppercase;
+    width: 350px;
+}
+
+.contato .localizacao .ilha-da-conceicao img {
+    width: 100%;
+    height: auto;
+}
+
+.contato .localizacao .ilha-da-conceicao {
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29.64px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-transform: uppercase;
+    width: 350px;
+}
+
+.contato .localizacao .santos img {
+    width: 100%;
+    height: auto;
+}
+
+.contato .localizacao .santos {
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29.64px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-transform: uppercase;
+    width: 350px;
+}
+
+.contato .localizacao .caju img {
+    width: 100%;
+    height: auto;
+}
+
+.contato .localizacao .caju {
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29.64px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-transform: uppercase;
+    width: 350px;
+}
+
+.contato .div-dois h1 {
+    color: blue;
+    padding: 80px 0px 20px 120px;
+    font-family: Oswald;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 47.42px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.contato .div-dois h2 {
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 35.57px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 20px 0px 10px 120px;
+}
+
+.contato .div-dois .formulario {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-group {
+    margin: 30px 0px 15px 50px;
+    font-family: Oswald;
+    font-weight: 300;
+    line-height: 29.64px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.form-group label {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 5px;
+    width: 350px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: none;
+    height: 100px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: rgb(40, 77, 201);
+
+}
+
+footer {
+    background: #D8D8D8;
+    padding: 15px;
+    font-family: Oswald;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20.75px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    display: flex;
+    justify-content: center;
+
 }
