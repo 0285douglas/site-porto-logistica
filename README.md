@@ -19,8 +19,6 @@ Desenvolvimento do site da PortoLogística em formato de Landing Page
 
 - [Funcionalidades](#funcionalidades)
 - [Tecnologias](#tecnologias)
-- [Instalação](#instalacao)
-- [Como Usar](#como-usar)
 - [Contribuições](#contribuicoes)
 - [Licença](#licenca)
 - [Contato](#contato)
