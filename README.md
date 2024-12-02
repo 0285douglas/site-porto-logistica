@@ -1,7 +1,8 @@
 
 # 🚀 Projeto Cotação de ações
 
-![Badge Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-brightgreen) ![Licença](https://img.shields.io/badge/licença-MIT-blue)
+![Static Badge](https://img.shields.io/badge/Status-Completo-Completo?color=green)
+ ![Licença](https://img.shields.io/badge/licença-MIT-blue)
 
 ## Descrição
 Desenvolvimento do site da PortoLogística em formato de Landing Page
